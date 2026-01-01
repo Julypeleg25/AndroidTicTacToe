@@ -15,12 +15,21 @@ class Board(private val state: GameState) {
 
        //TODO: check result here
 
-        if (false) { //TODO: CHECK IS BOARD FULL
+        if (isBoardFull()) {
             return GameResult.Draw
         }
 
-         //TODO: next player turn
+        nextTurn();
         return GameResult.Continue
+    }
+
+    private fun isBoardFull(): Boolean =
+        state.grid.all { row -> row.all { it != GameConstants.EMPTY_CELL } }
+
+    private fun nextTurn() {
+        val nextPlayer =  if (state.currentPlayer == GameConstants.PLAYER_X)
+            GameConstants.PLAYER_O else GameConstants.PLAYER_X
+        state.currentPlayer = nextPlayer
     }
 
     //TODO: play again and check winner
