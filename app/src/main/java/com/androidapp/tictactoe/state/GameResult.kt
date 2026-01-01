@@ -4,7 +4,7 @@ sealed class GameResult {
     object Continue : GameResult()
     object Draw : GameResult()
 
-    object Invalid : GameResult()
+    object None : GameResult()
 
 
     data class Win(val player: Char) : GameResult()

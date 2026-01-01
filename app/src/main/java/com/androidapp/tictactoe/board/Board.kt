@@ -7,8 +7,8 @@ import com.androidapp.tictactoe.utils.GameConstants
 class Board(private val state: GameState) {
 
     fun play(row: Int, col: Int): GameResult {
-        if (state.isFinished || state.grid[row][col] != GameConstants.EMPTY_CELL) {
-            return GameResult.Invalid
+        if (state.grid[row][col] != GameConstants.EMPTY_CELL) {
+            return GameResult.None
         }
 
         state.grid[row][col] = state.currentPlayer
@@ -16,7 +16,6 @@ class Board(private val state: GameState) {
        //TODO: check result here
 
         if (false) { //TODO: CHECK IS BOARD FULL
-            state.isFinished = true
             return GameResult.Draw
         }
 
