@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest
     xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.neon.tictactoe">
+    package="com.androidapp.tictactoe">
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Material3.Dark.NoActionBar">
 
         <activity
-            android:name=".ui.GameActivity"
+            android:name="com.androidapp.tictactoe.ui.GameActivity"
             android:exported="true">
 
             <intent-filter>
