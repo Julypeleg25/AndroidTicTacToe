@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+    <string name="play_again">Play again</string>
+    <string name="play_prompt">%1$s</string>
 </resources>
