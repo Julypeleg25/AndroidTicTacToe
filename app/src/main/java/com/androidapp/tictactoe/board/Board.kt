@@ -1,6 +1,6 @@
 package com.androidapp.tictactoe.board
 
-import com.androidapp.tictactoe.state.GameResult
+import com.androidapp.tictactoe.utils.GameResult
 import com.androidapp.tictactoe.state.GameState
 import com.androidapp.tictactoe.utils.GameConstants
 
