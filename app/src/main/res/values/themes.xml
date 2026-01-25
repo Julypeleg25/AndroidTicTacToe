@@ -2,12 +2,12 @@
     <style name="Theme.TicTacToe" parent="Theme.Material3.Dark.NoActionBar"/>
 
     <style name="CellStyle">
-        <item name="android:layout_width">90dp</item>
-        <item name="android:layout_height">90dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
         <item name="android:textSize">28sp</item>
         <item name="android:textColor">@color/cellText</item>
-        <item name="android:backgroundTint">@color/cellBackground</item>
         <item name="android:gravity">center</item>
+        <item name="android:backgroundTint">@color/cellBackground</item>
         <item name="android:layout_margin">4dp</item>
     </style>
 </resources>

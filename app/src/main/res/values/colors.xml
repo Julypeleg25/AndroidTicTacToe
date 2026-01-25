@@ -1,6 +1,4 @@
 <resources>
-    <color name="cellBackground">#1E1E1E</color>
-    <color name="cellText">#00FFAB</color>
-    <color name="black">#121212</color>
-    <color name="neonGreen">#39FF14</color>
+    <color name="cellBackground">#477fff</color>
+    <color name="cellText">#4F4F4F</color>
 </resources>
