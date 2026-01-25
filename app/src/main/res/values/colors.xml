@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#000000</color>
-    <color name="green">#0FFFAA</color>
+    <color name="cellBackground">#1E1E1E</color>
+    <color name="cellText">#00FFAB</color>
+    <color name="black">#121212</color>
+    <color name="neonGreen">#39FF14</color>
 </resources>
